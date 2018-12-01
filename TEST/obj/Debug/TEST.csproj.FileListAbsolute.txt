@@ -12,3 +12,17 @@ C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.exe
 C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.pdb
 C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.temp.resources
 C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.UserControl1.resources
+C:\Users\hoang\Documents\ProCNPM\TEST\bin\Debug\TEST.exe.config
+C:\Users\hoang\Documents\ProCNPM\TEST\bin\Debug\TEST.exe
+C:\Users\hoang\Documents\ProCNPM\TEST\bin\Debug\TEST.pdb
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.FormLogin.resources
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.FrmMain.resources
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.Properties.Resources.resources
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.temp.resources
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.UserControl1.resources
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.exe
+C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.pdb

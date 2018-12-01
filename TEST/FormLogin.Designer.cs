@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
-            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_close = new Bunifu.Framework.UI.BunifuImageButton();
@@ -62,10 +62,10 @@
             this.panel1.Controls.Add(this.label1);
             this.error_transition.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(430, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(322, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(544, 599);
+            this.panel1.Size = new System.Drawing.Size(408, 487);
             this.panel1.TabIndex = 2;
             // 
             // btn_close
@@ -74,9 +74,10 @@
             this.error_transition.SetDecoration(this.btn_close, BunifuAnimatorNS.DecorationType.None);
             this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
             this.btn_close.ImageActive = null;
-            this.btn_close.Location = new System.Drawing.Point(570, 3);
+            this.btn_close.Location = new System.Drawing.Point(428, 2);
+            this.btn_close.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(30, 29);
+            this.btn_close.Size = new System.Drawing.Size(22, 24);
             this.btn_close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_close.TabIndex = 3;
             this.btn_close.TabStop = false;
@@ -89,9 +90,10 @@
             this.error_transition.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(150, 299);
+            this.label2.Location = new System.Drawing.Point(112, 243);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(284, 24);
+            this.label2.Size = new System.Drawing.Size(223, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Human Resources Management";
             // 
@@ -102,9 +104,10 @@
             this.error_transition.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(249, 244);
+            this.label1.Location = new System.Drawing.Point(187, 198);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 46);
+            this.label1.Size = new System.Drawing.Size(91, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "HRM";
             // 
@@ -119,9 +122,9 @@
             this.error_transition.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(974, 599);
+            this.panel2.Size = new System.Drawing.Size(730, 487);
             this.panel2.TabIndex = 3;
             // 
             // lbl_Error
@@ -130,9 +133,10 @@
             this.error_transition.SetDecoration(this.lbl_Error, BunifuAnimatorNS.DecorationType.None);
             this.lbl_Error.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Error.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbl_Error.Location = new System.Drawing.Point(69, 328);
+            this.lbl_Error.Location = new System.Drawing.Point(52, 266);
+            this.lbl_Error.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_Error.Name = "lbl_Error";
-            this.lbl_Error.Size = new System.Drawing.Size(195, 17);
+            this.lbl_Error.Size = new System.Drawing.Size(147, 13);
             this.lbl_Error.TabIndex = 3;
             this.lbl_Error.Text = "Username hoặc Password sai";
             this.lbl_Error.Visible = false;
@@ -150,10 +154,9 @@
             this.txtUsername.LineIdleColor = System.Drawing.Color.Purple;
             this.txtUsername.LineMouseHoverColor = System.Drawing.Color.Black;
             this.txtUsername.LineThickness = 2;
-            this.txtUsername.Location = new System.Drawing.Point(66, 202);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUsername.Location = new System.Drawing.Point(50, 164);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(299, 52);
+            this.txtUsername.Size = new System.Drawing.Size(224, 42);
             this.txtUsername.TabIndex = 1;
             this.txtUsername.Text = "Username";
             this.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -166,9 +169,10 @@
             this.error_transition.SetDecoration(this.lbl_signin, BunifuAnimatorNS.DecorationType.None);
             this.lbl_signin.Font = new System.Drawing.Font("Arial", 18F);
             this.lbl_signin.ForeColor = System.Drawing.Color.Indigo;
-            this.lbl_signin.Location = new System.Drawing.Point(141, 110);
+            this.lbl_signin.Location = new System.Drawing.Point(106, 89);
+            this.lbl_signin.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_signin.Name = "lbl_signin";
-            this.lbl_signin.Size = new System.Drawing.Size(124, 35);
+            this.lbl_signin.Size = new System.Drawing.Size(100, 27);
             this.lbl_signin.TabIndex = 2;
             this.lbl_signin.Text = "SIGN IN";
             // 
@@ -185,10 +189,9 @@
             this.txtPassword.LineIdleColor = System.Drawing.Color.Purple;
             this.txtPassword.LineMouseHoverColor = System.Drawing.Color.Black;
             this.txtPassword.LineThickness = 2;
-            this.txtPassword.Location = new System.Drawing.Point(66, 262);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Location = new System.Drawing.Point(50, 213);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(299, 50);
+            this.txtPassword.Size = new System.Drawing.Size(224, 41);
             this.txtPassword.TabIndex = 2;
             this.txtPassword.Text = "Password";
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -196,7 +199,7 @@
             // btnLogin
             // 
             this.btnLogin.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(34)))), ((int)(((byte)(75)))));
-            this.btnLogin.BackColor = System.Drawing.Color.Indigo;
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(41)))), ((int)(((byte)(90)))));
             this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLogin.BorderRadius = 0;
             this.btnLogin.ButtonText = "LET\'S GO";
@@ -215,14 +218,13 @@
             this.btnLogin.IconVisible = true;
             this.btnLogin.IconZoom = 90D;
             this.btnLogin.IsTab = false;
-            this.btnLogin.Location = new System.Drawing.Point(107, 463);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLogin.Location = new System.Drawing.Point(80, 376);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(41)))), ((int)(((byte)(90)))));
             this.btnLogin.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(57)))), ((int)(((byte)(124)))));
             this.btnLogin.OnHoverTextColor = System.Drawing.Color.White;
             this.btnLogin.selected = false;
-            this.btnLogin.Size = new System.Drawing.Size(188, 52);
+            this.btnLogin.Size = new System.Drawing.Size(141, 42);
             this.btnLogin.TabIndex = 0;
             this.btnLogin.Text = "LET\'S GO";
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -233,32 +235,33 @@
             // 
             this.error_transition.AnimationType = BunifuAnimatorNS.AnimationType.Scale;
             this.error_transition.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(0);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 0F;
-            this.error_transition.DefaultAnimation = animation3;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.error_transition.DefaultAnimation = animation1;
             // 
             // FormLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 599);
+            this.ClientSize = new System.Drawing.Size(730, 487);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.error_transition.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormLogin";
             this.Text = "FormLogin";
             this.panel1.ResumeLayout(false);
