@@ -1,0 +1,14 @@
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.FormLogin.resources
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.Properties.Resources.resources
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\bin\Debug\TEST.exe.config
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\bin\Debug\TEST.exe
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\bin\Debug\TEST.pdb
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.exe
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.pdb
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.temp.resources
+C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.UserControl1.resources
