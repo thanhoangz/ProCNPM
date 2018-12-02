@@ -15,11 +15,15 @@ namespace TEST
         public FrmMain()
         {
             InitializeComponent();
+        }    
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
+        }        
     }
 }
