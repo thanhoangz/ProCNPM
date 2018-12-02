@@ -41,6 +41,9 @@ namespace TEST
         private void btnQuanLyThuoc_Click(object sender, EventArgs e)
         {
             panel_Select.Top = btnQuanLyThuoc.Top;
+            UserControl_QuanLyThuoc userControl_QuanLyThuoc = new UserControl_QuanLyThuoc();
+            panel_HienThi.Controls.Add(userControl_QuanLyThuoc);
+            userControl_QuanLyThuoc.Dock = DockStyle.Fill;
         }
 
         private void btnQuanLyNVBS_Click(object sender, EventArgs e)
