@@ -15,6 +15,8 @@ namespace TEST
         public FrmMain()
         {
             InitializeComponent();
+            btnQuanLyBenhNhan.selected = true;
+            
         }    
         private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
@@ -24,6 +26,71 @@ namespace TEST
         private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }        
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btnQuanLyBenhNhan.Top;
+        }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btnQuanLyLichHen.Top;
+        }
+
+        private void btnQuanLyThuoc_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btnQuanLyThuoc.Top;
+        }
+
+        private void btnQuanLyNVBS_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btnQuanLyNVBS.Top;
+        }
+
+        private void btnDichVu_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btnDichVu.Top;
+        }
+
+        private void btnDonThuoc_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btnDonThuoc.Top;
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btnThongKe.Top;
+        }
+
+        private void btnThanhToan_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btnThanhToan.Top;
+        }
+
+        private void btnHeThong_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btnHeThong.Top;
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            if(panel_ChucNang.Width == 42)
+            {
+                panel_ChucNang.Visible = false;
+                panel_ChucNang.Width = 245;
+                transition_Menu.ShowSync(panel_ChucNang);
+
+            }
+            else
+            {
+                
+                //transition_Menu.HideSync(panel_ChucNang);
+                panel_ChucNang.Visible = false;
+                panel_ChucNang.Width = 42;
+                transition_Menu.ShowSync(panel_ChucNang);
+
+            }
+        }
     }
 }
