@@ -75,6 +75,7 @@ namespace TEST
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
+            // chú thích pannel_hienthi width = 1154
             if(panel_ChucNang.Width == 42)
             {
                 panel_ChucNang.Visible = false;
